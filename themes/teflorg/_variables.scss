@@ -36,7 +36,7 @@ $transitionDuration:.2s !default;
 $formElementTransition:background-color $transitionDuration, color $transitionDuration, border-color $transitionDuration, box-shadow $transitionDuration !default;
 $actionIconTransition:background-color $transitionDuration, color $transitionDuration, box-shadow $transitionDuration !default;
 $listItemTransition:box-shadow $transitionDuration !default;
-$primeIconFontSize:1.4rem !default;
+$primeIconFontSize:1.0rem !default;
 $divider:1px solid $shade300 !default;
 $inlineSpacing:.5rem !default;
 $disabledOpacity:.6 !default;
@@ -145,7 +145,7 @@ $plainButtonHoverBgColor:$shade200 !default;
 $plainButtonActiveBgColor:$shade300 !default;
 $contrastButtonBorder:white !default;
 
-$secondaryButtonBg:#64748B !default;
+$secondaryButtonBg:#2EA18B !default; /* #2EA18B */
 $secondaryButtonTextColor:#ffffff !default;
 $secondaryButtonBorder:1px solid #64748B !default;
 $secondaryButtonHoverBg:#475569 !default;
@@ -155,6 +155,17 @@ $secondaryButtonActiveBg:#334155 !default;
 $secondaryButtonTextActiveColor:$secondaryButtonTextColor !default;
 $secondaryButtonActiveBorderColor:#334155 !default;
 $secondaryButtonFocusShadow:0 0 0 0.2rem #E2E8F0 !default;
+
+$tertiaryButtonBg:#fbc04a !default; /* #2EA18B */
+$tertiaryButtonTextColor:#ffffff !default;
+$tertiaryButtonBorder:1px solid #fbc04a !default;
+$tertiaryButtonHoverBg:#475569 !default;
+$tertiaryButtonTextHoverColor:$secondaryButtonTextColor !default;
+$tertiaryButtonHoverBorderColor:#fbc04a  !default;
+$tertiaryButtonActiveBg:#334155 !default;
+$tertiaryButtonTextActiveColor:$secondaryButtonTextColor !default;
+$tertiaryButtonActiveBorderColor:#fbc04a  !default;
+$tertiaryButtonFocusShadow:0 0 0 0 #E2E8F0 !default;
 
 $infoButtonBg:#0ea5e9 !default;
 $infoButtonTextColor:#ffffff !default;
