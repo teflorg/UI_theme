@@ -1,0 +1,14 @@
+$primaryColor: rgb(251, 193, 74) !default;
+$primaryLightColor: #a7f3d0 !default;
+$primaryDarkColor: rgb(57 86 115)!default;
+$primaryDarkerColor: #047857 !default;
+$primaryTextColor: #ffffff !default;
+
+$highlightBg: #F0FDFA !default;
+$highlightTextColor: $primaryDarkerColor !default;
+$highlightFocusBg: rgba($primaryColor, .24) !default;
+
+@import './_variables';
+@import './_fonts';
+@import './_components.scss';
+@import './_extensions';
