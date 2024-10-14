@@ -148,7 +148,7 @@ $roundedButtonBorderRadius:2rem !default;
 $buttonIconOnlyWidth: 50% !default;
 $textButtonHoverBgOpacity:.04 !default;
 $textButtonActiveBgOpacity:.16 !default;
-$outlinedButtonBorder:1px solid !default;
+$outlinedButtonBorder:1px solid;
 $plainButtonTextColor:$textSecondaryColor !default;
 $plainButtonHoverBgColor:$shade200 !default;
 $plainButtonActiveBgColor:$shade300 !default;

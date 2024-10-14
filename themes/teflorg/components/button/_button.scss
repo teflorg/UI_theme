@@ -97,9 +97,9 @@
 
     &.p-button-outlined {
         background-color: transparent;
-        color: $buttonBg;
-        border: $outlinedButtonBorder;
-        border-radius: 0 50px 50px 50px;
+        color: $buttonBg !important;
+        border: $outlinedButtonBorder !important;
+        border-radius: 0 50px 50px 50px !important;
         &:not(:disabled):hover {
             background: $primaryColor;
             color: white;
