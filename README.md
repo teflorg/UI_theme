@@ -2,7 +2,6 @@
 
 Use as a submodule with
 
-`git submodule add https://github.com/teflorg/UI_theme.git assets`
 
 `git submodule init`
 
